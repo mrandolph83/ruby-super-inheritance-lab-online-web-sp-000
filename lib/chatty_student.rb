@@ -8,6 +8,8 @@ class ChattyStudent < Student
   end
 
   def raise_hand
+  # Brackets work for the .times do method just like in iteration.
+  # Don't need to put "do" and "end" an additional time
     10.times {super}
   end
 end
